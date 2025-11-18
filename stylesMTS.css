@@ -31,7 +31,7 @@ header { /* DIseño del encabezado */
 
 ul { /* Diseño de la lista  */
     background-color: #F9DFFB;
-    padding: 15px;
+    padding: 30px;
     border-radius: 8px;
 }
 
@@ -66,4 +66,5 @@ footer { /* Diseño del pie de pagina */
     font-size: 0.9em;
     color: #4D0E3F;
 }
+
 
