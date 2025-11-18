@@ -1,12 +1,13 @@
-body {
-    background-color: #E9CBF5;
-    font-family: 'Bradley Hand', cursive; 
-    margin: 0;
-    padding: 0;
-    color: #4D0E3F;
+body { /* Establece el diseño global de la pagina */
+    background-color: #E9CBF5; /* COlor de fondo */
+    font-family: 'Bradley Hand', cursive;  /* Fuente */
+    margin: 0; /* Margen */
+    padding: 0; /* Hace que el contenido no este pegado al borde */
+    color: #4D0E3F;  /* color de fuente */
 }
 
-#container {
+    
+#container { /* Define el diseño del contenedor principal */
     width: 80%;
     margin: 20px auto;
     padding: 20px;
@@ -15,7 +16,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-header {
+header { /* DIseño del encabezado */
     background-color: #9B10A1;
     color: violet;
     padding: 15px;
@@ -23,35 +24,35 @@ header {
     border-radius: 10px;
 }
 
-.resaltado {
+.resaltado { /* Define con que diseño va a resalta el span */
     color: #FF00FF;
     font-weight: bolder;
 }
 
-ul {
+ul { /* Diseño de la lista  */
     background-color: #F9DFFB;
     padding: 15px;
     border-radius: 8px;
 }
 
-table {
+table { /* Diseño de la tabla */
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
 }
 
-th, td {
+th, td { /* Define estructura de la tabla */
     border: 1px solid #ccc;
     padding: 10px;
     text-align: left;
 }
 
-th {
+th { /*  diseño de la tabla*/
     background-color: #9B10A1;
     color: violet;
 }
 
-img {
+img { /* Nos dice como se va a mostrar la imagen insertada */
     display: block;
     width: 60%;
     height: auto;
@@ -59,9 +60,10 @@ img {
     border-radius: 10px;
 }
 
-footer {
+footer { /* Diseño del pie de pagina */
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
     color: #4D0E3F;
 }
+
